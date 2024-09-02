@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '12.0'
+platform :ios, '14.0'
 
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
@@ -33,6 +33,7 @@ flutter_ios_podfile_setup
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
+  pod 'GoogleSignIn', '~> 7.1'
   pod 'PhoneNumberKit/PhoneNumberKitCore', :git => 'https://github.com/marmelroy/PhoneNumberKit', :tag => '3.5.10'
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
