@@ -5,7 +5,7 @@ class AppConstants {
   static const String appName = '6valley';
   static const String slogan = 'E-Commerce Marketplace';
   static const String appVersion = '14.7';
-  static const String baseUrl = 'Your_Base_URL';
+  static const String baseUrl = 'https://adoring-pascal.74-208-46-134.plesk.page';
   static const String userId = 'userId';
   static const String name = 'name';
   static const String categoriesUri = '/api/v1/categories?guest_id=1';
