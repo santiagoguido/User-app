@@ -2,8 +2,8 @@ import 'package:flutter_sixvalley_ecommerce/localization/models/language_model.d
 import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
 
 class AppConstants {
-  static const String appName = '6valley';
-  static const String slogan = 'E-Commerce Marketplace';
+  static const String appName = 'Badesa';
+  static const String slogan = 'Tienda Badesa';
   static const String appVersion = '14.7';
   static const String baseUrl = 'https://adoring-pascal.74-208-46-134.plesk.page';
   static const String userId = 'userId';
